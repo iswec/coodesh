@@ -70,5 +70,3 @@ git clone git@github.com:iswec/coodesh.git
 ## Deploy
 
 ## This is a challenge by Coodesh
-
-[![Deploy]](https://dropmail-truckpag.netlify.app/)
