@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+> This is a challenge by [Coodesh](https://coodesh.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dropmail
 
-## Available Scripts
+Com o e-mail gerado, você poderá receber mensagens normalmente e proteger sua privacidade, evitando assim receber em sua caixa de email pessoal Spams e engenharias sociais.
 
-In the project directory, you can run:
+## Tecnologias utilizadas
 
-### `npm start`
+- React + Tailwind
+- Redux
+- Axios
+- Graphql
+- Material UI
+- Cors.sh
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Iniciando <a name = "getting_started"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Estas instruções fornecerão uma cópia do projeto em execução em sua máquina local para fins de desenvolvimento e teste.
 
-### `npm test`
+## Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O que você precisa ter instalado em sua máquina
 
-### `npm run build`
+```
+- Node 14+
+- Npm
+- Git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Clone o repositório
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```git
+ssh >
+git clone git@github.com:vgabrielk/dropmail.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```git
+https >
+git clone git@github.com:iswec/coodesh.git
+```
 
-### `npm run eject`
+## Variáveis de ambiente
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Para rodar esse projeto, você vai precisar adicionar a seguinte variável de ambiente ao seu arquivo .env
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`https://cors-anywhere.herokuapp.com/ o link da api`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Para obter esse token que é necessário para resolver um problema de Cors presente na API do Dropmail, será preciso acessar o site - https://cors-anywhere.herokuapp.com.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Na página inicial terá um campo e-mail para você receber o token temporário e adicionar a variável de ambiente ao projeto.
 
-## Learn More
+## Rodando projeto localmente com npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Na pasta raiz do projeto rode o seguinte comando para fazer o build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```shell
+  npm install
+```
 
-### Code Splitting
+### Após terminar o build, rode esse comando :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```shell
+  npm start
+```
 
-### Analyzing the Bundle Size
+### Deverá aparecer um resultado parecido com esse :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```shell
+  ➜  Local:   http://localhost:3000
+  ➜  Network: http://192.168.0.201:3000
+```
 
-### Making a Progressive Web App
+#### Agora só colar um desses links em um browser para acessar o projeto, caso o primeiro não funcione teste o segundo. <br><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Deploy
 
-### Advanced Configuration
+## This is a challenge by Coodesh
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Deploy]](https://dropmail-truckpag.netlify.app/)
