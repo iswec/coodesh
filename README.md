@@ -30,11 +30,6 @@ O que você precisa ter instalado em sua máquina
 ## Clone o repositório
 
 ```git
-ssh >
-git clone git@github.com:vgabrielk/dropmail.git
-```
-
-```git
 https >
 git clone git@github.com:iswec/coodesh.git
 ```
