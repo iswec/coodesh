@@ -70,3 +70,5 @@ git clone git@github.com:iswec/coodesh.git
 ## Deploy
 
 ## This is a challenge by Coodesh
+
+[![Deploy]](https://challenge-coodesh.netlify.app/)
